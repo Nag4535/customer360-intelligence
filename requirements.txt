@@ -1,11 +1,15 @@
+cd ~/Desktop/Customer360_Intelligence
+cat > requirements.txt << 'EOF'
 pandas
 numpy
 matplotlib
 seaborn
 plotly
-streamlit
 sqlalchemy
 scikit-learn
 xgboost
-torch
 joblib
+altair==4.2.2
+streamlit==1.22.0
+protobuf==3.20.3
+EOF
