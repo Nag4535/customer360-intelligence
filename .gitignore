@@ -1,0 +1,12 @@
+# Large data files
+data/raw/
+data/processed/orders_master.csv
+database/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Models (too large)
+models/*.pth
