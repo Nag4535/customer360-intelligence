@@ -17,7 +17,7 @@ st.set_page_config(
 # ── DATABASE CONNECTION ───────────────────────────────────
 @st.cache_data
 def load_data():
-    engine = create_engine('sqlite:///database/instacart.db')
+    engine = create_engine('sqlite:///database/instacart_sample.db')
     rfm       = pd.read_sql('SELECT * FROM rfm_churn', engine)
     orders    = pd.read_sql('SELECT * FROM orders', engine)
     products  = pd.read_sql('SELECT * FROM products', engine)
