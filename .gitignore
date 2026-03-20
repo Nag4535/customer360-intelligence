@@ -1,12 +1,12 @@
-# Large data files
+# Large data files only
 data/raw/
 data/processed/orders_master.csv
-database/
+database/instacart.db
 
 # Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Models (too large)
+# Large models
 models/*.pth
